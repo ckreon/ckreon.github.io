@@ -65,16 +65,21 @@ h4 {
   color: $gray;
 }
 
+h5 {
+  font-size: 12px;
+  color: $gray;
+}
+
 p {
   margin: 15px 0;
 }
 
 a {
-  color: $blue;
+  color: $red;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $brightRed;
   }
 }
 
@@ -117,6 +122,7 @@ img {
 }
 
 .date {
+  font-size: 14px;
   font-style: italic;
   color: $gray;
 }
@@ -157,7 +163,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid #aaa;
 
   @include mobile {
     text-align: center;
@@ -245,7 +251,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid #bbb;
 }
 
 .posts > .post:last-child {
